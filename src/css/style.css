@@ -39,3 +39,6 @@ body {
   background-image: linear-gradient(to right bottom, rgba(50, 146, 166, 0.7), rgba(50, 146, 166, 0.7)), url(../img/mountains.jpg);
   background-size: cover;
   padding: 2rem 0; }
+
+#newsletter {
+  padding: 4rem 0; }

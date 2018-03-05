@@ -20,7 +20,7 @@ html{
         font-size: 80%; //1rem = 7.2px/16px % =  45%
     }
     @include respond(tab-land) {
-        font-size:100%; //1rem = 8.8px/16px = 55%
+        font-size: 100%; //1rem = 8.8px/16px = 55%
     }
     @include respond(big-desktop) {
         font-size: 100%; //1rem = 12px/16px % = 75%;
