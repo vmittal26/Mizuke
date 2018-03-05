@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  color: #fff;
+  box-sizing: border-box; }
+
+.navbar {
+  box-shadow: 2px 2px 5px rgba(50, 146, 166, 0.8); }
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 0.5rem; }

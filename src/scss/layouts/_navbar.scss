@@ -1,0 +1,6 @@
+.navbar{
+    box-shadow: 2px 2px 5px rgba($primary-color,0.8);
+    .nav-item:not(:last-child){
+        margin-right: 0.5rem;
+    }
+}
