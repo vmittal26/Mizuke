@@ -9,7 +9,31 @@ body {
   color: #fff;
   box-sizing: border-box; }
 
+@media only screen and (min-width: 576px) {
+  html {
+    font-size: 60%; } }
+
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 70%; } }
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 100%; } }
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 100%; } }
+
 .navbar {
-  box-shadow: 0.2rem 0.2rem 0.25rem rgba(50, 146, 166, 0.8); }
+  box-shadow: 0.2rem 0.2rem 0.25rem rgba(50, 146, 166, 0.8);
+  background-color: #fff;
+  font-size: 1.2rem; }
   .navbar .nav-item:not(:last-child) {
     margin-right: 0.5rem; }
+
+#showcase {
+  margin: 4.8rem 0;
+  background-image: linear-gradient(to right bottom, rgba(50, 146, 166, 0.7), rgba(50, 146, 166, 0.7)), url(../img/mountains.jpg);
+  background-size: cover;
+  padding: 2rem 0; }
