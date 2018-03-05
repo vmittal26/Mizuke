@@ -10,6 +10,6 @@ body {
   box-sizing: border-box; }
 
 .navbar {
-  box-shadow: 2px 2px 5px rgba(50, 146, 166, 0.8); }
+  box-shadow: 0.2rem 0.2rem 0.25rem rgba(50, 146, 166, 0.8); }
   .navbar .nav-item:not(:last-child) {
     margin-right: 0.5rem; }
