@@ -1,0 +1,19 @@
+@mixin fa-icon{
+    font-size:1rem;
+    padding:0.4rem;
+}
+
+@mixin respond($breakpoint) {
+    @if($breakpoint==phone) {
+        @media only screen and (min-width:576px){@content;}//768px
+    }
+    @if($breakpoint== tab-port){
+        @media only screen and(min-width: 992px) {@content;}//900px
+    }
+    @if($breakpoint== tab-land){
+        @media only screen and(min-width: 1200px) {@content;}//1200
+    }
+    @if($breakpoint== big-desktop){
+        @media only screen and (min-width: 112.5em) {@content;}//1800
+    }
+}

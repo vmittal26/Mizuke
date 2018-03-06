@@ -1,0 +1,12 @@
+.navbar{
+    box-shadow: .2rem .2rem .25rem rgba($primary-color,0.8);
+    background-color: #fff;
+    .nav-item:not(:last-child){
+        margin-right: 0.5rem;
+    }
+    font-size:1.2rem;
+
+    &-nav{
+        margin-left: 50%;
+    }
+}
