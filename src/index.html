@@ -55,57 +55,110 @@
         </div>
       </div>
     </section>
-
-    <section id="about" class="text-center">
+    <section id="boxes">
       <div class="container">
-        <div id="accordion" role="tablist">
-           <div class="card">
-              <div class="card-header" id="heading1">
-                <h5 class="mb-0">
-                  <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
-                    <i class="fa fa-arrow-circle-down"></i> Get Inspired
-                  </div>
-                </h5>
-              </div>
-
-              <div id="collapse1" class="collapse show">
-                <div class="card-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi pariatur optio totam obcaecati facere nam nihil inventore dolorum consequuntur quis unde voluptatibus numquam velit veniam explicabo eveniet fugit hic, tenetur. Iusto, consequatur, obcaecati. Ab earum alias, placeat exercitationem possimus quidem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia officiis aliquam fugiat, omnis, corrupti dolorum ipsa laudantium sequi dolores!
-                </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3 class="text-primary">Be Better</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quibusdam.</p>
               </div>
             </div>
-            <div class="card">
-                <div class="card-header" id="heading2">
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-primary text-white">
+              <div class="card-body">
+                <h3>Be Smarter</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quibusdam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3 class="text-primary">Be Faster</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quibusdam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center bg-primary text-white">
+              <div class="card-body">
+                <h3>Be Stronger</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quibusdam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="py-5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="info-header mb-5">
+              <h1 class="text-primary pb-3">
+                Why This Book?
+              </h1>
+              <p class="lead pb-3 text-dark m-auto w-50">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet omnis fuga maiores excepturi dolores explicabo.
+              </p>
+            </div>
+  
+            <!-- ACCORDION -->
+            <div id="accordion" role="tablist" class = "text-info">
+              <div class="card">
+                <div class="card-header" id="heading1">
                   <h5 class="mb-0">
-                    <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
-                      <i class="fa fa-arrow-circle-down"></i> Gain Knowledge
+                    <div href="#" class = "btn btn-lg" data-toggle="collapse" data-target="#collapse1">
+                      <i class="fa fa-arrow-circle-down"></i> Get Inspired
                     </div>
                   </h5>
                 </div>
   
-                <div id="collapse2" class="collapse">
+                <div id="collapse1" class="collapse show" data-parent="#accordion">
                   <div class="card-body">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi pariatur optio totam obcaecati facere nam nihil inventore dolorum consequuntur quis unde voluptatibus numquam velit veniam explicabo eveniet fugit hic, tenetur. Iusto, consequatur, obcaecati. Ab earum alias, placeat exercitationem possimus quidem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia officiis aliquam fugiat, omnis, corrupti dolorum ipsa laudantium sequi dolores!
                   </div>
                 </div>
               </div>
+  
               <div class="card">
-                  <div class="card-header" id="heading3">
-                    <h5 class="mb-0">
-                      <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
-                        <i class="fa fa-arrow-circle-down"></i> Open Your Mind
-                      </div>
-                    </h5>
-                  </div>
-    
-                  <div id="collapse3" class="collapse">
-                    <div class="card-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi pariatur optio totam obcaecati facere nam nihil inventore dolorum consequuntur quis unde voluptatibus numquam velit veniam explicabo eveniet fugit hic, tenetur. Iusto, consequatur, obcaecati. Ab earum alias, placeat exercitationem possimus quidem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia officiis aliquam fugiat, omnis, corrupti dolorum ipsa laudantium sequi dolores!
+                <div class="card-header" id="heading2">
+                  <h5 class="mb-0">
+                    <div href="#" class = "btn btn-lg" data-toggle="collapse" data-target="#collapse2">
+                      <i class="fa fa-arrow-circle-down"></i> Open Your Mind
                     </div>
+                  </h5>
+                </div>
+  
+                <div id="collapse2" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi pariatur optio totam obcaecati facere nam nihil inventore dolorum consequuntur quis unde voluptatibus numquam velit veniam explicabo eveniet fugit hic, tenetur. Iusto, consequatur, obcaecati. Ab earum alias, placeat exercitationem possimus quidem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia officiis aliquam fugiat, omnis, corrupti dolorum ipsa laudantium sequi dolores!
                   </div>
                 </div>
+              </div>
+  
+              <div class="card">
+                <div class="card-header" id="heading3">
+                  <h5 class="mb-0">
+                    <div href="#" class = "btn btn-lg" data-toggle="collapse" data-target="#collapse3">
+                      <i class="fa fa-arrow-circle-down"></i> Gain Knowledge
+                    </div>
+                  </h5>
+                </div>
+  
+                <div id="collapse3" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi pariatur optio totam obcaecati facere nam nihil inventore dolorum consequuntur quis unde voluptatibus numquam velit veniam explicabo eveniet fugit hic, tenetur. Iusto, consequatur, obcaecati. Ab earum alias, placeat exercitationem possimus quidem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia officiis aliquam fugiat, omnis, corrupti dolorum ipsa laudantium sequi dolores!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
   </main>
 

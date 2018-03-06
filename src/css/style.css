@@ -34,6 +34,9 @@ body {
   .navbar-nav {
     margin-left: 50%; }
 
+#accordion .card-header {
+  padding: 0; }
+
 #showcase {
   margin: 4.8rem 0;
   background-image: linear-gradient(to right bottom, rgba(50, 146, 166, 0.7), rgba(50, 146, 166, 0.7)), url(../img/mountains.jpg);
