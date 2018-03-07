@@ -34,6 +34,9 @@ body {
   .navbar-nav {
     margin-left: 50%; }
 
+#authors {
+  padding: 4rem 0; }
+
 #accordion .card-header {
   padding: 0; }
 
@@ -41,7 +44,8 @@ body {
   margin: 4.8rem 0;
   background-image: linear-gradient(to right bottom, rgba(50, 146, 166, 0.7), rgba(50, 146, 166, 0.7)), url(../img/mountains.jpg);
   background-size: cover;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  font-size: 0.8rem; }
 
 #newsletter {
   padding: 2rem 0; }
