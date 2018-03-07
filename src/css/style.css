@@ -37,7 +37,11 @@ body {
 #authors {
   padding: 4rem 0; }
   #authors .fa {
-    font-size: 1.2rem; }
+    font-size: 1.4rem; }
+  #authors .card {
+    margin-top: 2rem; }
+  #authors img {
+    margin-top: -4rem; }
 
 #accordion .card-header {
   padding: 0; }
