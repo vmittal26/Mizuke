@@ -36,6 +36,8 @@ body {
 
 #authors {
   padding: 4rem 0; }
+  #authors .fa {
+    font-size: 1.2rem; }
 
 #accordion .card-header {
   padding: 0; }
