@@ -6,8 +6,14 @@
     }
     .card{
         margin-top:2rem;
+        color:#343a40;
+        transition:background-color 0.4s;
     }
     img{
         margin-top:-4rem;
+    }
+    .card:hover{
+        background-color: $primary-color;
+        color:white;
     }
 }

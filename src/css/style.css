@@ -39,9 +39,14 @@ body {
   #authors .fa {
     font-size: 1.4rem; }
   #authors .card {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    color: #343a40;
+    transition: background-color 0.4s; }
   #authors img {
     margin-top: -4rem; }
+  #authors .card:hover {
+    background-color: #3292a6;
+    color: white; }
 
 #accordion .card-header {
   padding: 0; }
